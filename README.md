@@ -19,9 +19,9 @@ This repository demonstrates an end-to-end ETL (Extract, Transform, Load) proces
 2. Open the etl_music_data.ipynb notebook and execute each cell sequentially. This notebook implements the ETL process, including data extraction, transformation, and loading.
 3. Verify Table Creation: After running the notebook, you can use the following commands in the terminal to connect to the PostgreSQL database container and verify table creation:
 
-  docker exec -it <container_name> psql -U postgres 
-  \c music_db 
-  \dt
+  1. docker exec -it <container_name> psql -U postgres 
+  2. \c music_db 
+  3. \dt
 
 ### Learning Experience
 This project offers a hands-on learning experience in implementing an end-to-end ETL process. You'll work with actual music data, utilize Pandas for data cleansing and transformation, and leverage Docker for containerized data storage. By following the notebook and examining the code, you'll gain insights into building ETL pipelines and effectively using libraries for data manipulation and database interactions.
